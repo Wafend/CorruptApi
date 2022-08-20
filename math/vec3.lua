@@ -1,4 +1,7 @@
 ---@class vec3
+---@operator add(vec3): vec3
+---@operator sub(vec3): vec3
+---@operator mul(number): vec3
 ---@field public x number
 ---@field public y number
 ---@field public z number

@@ -1,4 +1,7 @@
 ---@class vec2
+---@operator add(vec2): vec2
+---@operator sub(vec2): vec2
+---@operator mul(number): vec2
 ---@field public x number
 ---@field public y number
 local vec2 = {}
