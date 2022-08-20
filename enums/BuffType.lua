@@ -1,0 +1,41 @@
+﻿---@class BuffType
+---@field public Internal BuffType
+---@field public Aura BuffType
+---@field public CombatEnchancer BuffType
+---@field public CombatDehancer BuffType
+---@field public SpellShield BuffType
+---@field public Stun BuffType
+---@field public Invisibility BuffType
+---@field public Silence BuffType
+---@field public Taunt BuffType
+---@field public Unk BuffType
+---@field public Polymorph BuffType
+---@field public Slow BuffType
+---@field public Snare BuffType
+---@field public Damage BuffType
+---@field public Heal BuffType
+---@field public Haste BuffType
+---@field public SpellImmunity BuffType
+---@field public PhysicalImmunity BuffType
+---@field public Invulnerability BuffType
+---@field public AttackSpeedSlow BuffType
+---@field public NearSight BuffType
+---@field public Currency BuffType
+---@field public Fear BuffType
+---@field public Charm BuffType
+---@field public Poison BuffType
+---@field public Suppression BuffType
+---@field public Blind BuffType
+---@field public Counter BuffType
+---@field public Shred BuffType
+---@field public Flee BuffType
+---@field public Knockup BuffType
+---@field public Knockback BuffType
+---@field public Disarm BuffType
+---@field public Grounded BuffType
+---@field public Drowsy BuffType
+---@field public Asleep BuffType
+
+---@type BuffType
+_G.BuffType = {}
+
