@@ -1,5 +1,4 @@
-# CorruptApi
-VSCode Lua Annotations for the Corrupt Api
+Lua Annotations for the Corrupt Api
 
 Works with 
 
