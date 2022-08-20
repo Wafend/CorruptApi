@@ -1,6 +1,6 @@
 Lua Annotations for the Corrupt Api
 
-#Works with 
+# Works with 
 
 | Editor/IDE  | Note |
 | ------------- | ------------- |
