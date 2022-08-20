@@ -1,12 +1,4 @@
 ---@class Spell
----@field public start vec3
----@field public end vec3
----@field public missilePosition vec3
----@field public spellName string
----@field public polygon vec3[]
----@field public range number
----@field public radius number
----@field public speed number
 local Spell = {}
 
 ---@return boolean
