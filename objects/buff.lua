@@ -7,6 +7,7 @@
 ---@field public endTime number
 ---@field public remainingTime number
 ---@field public stacks number
+---@field public counter number
 
 ---@type buff
 _G.buff = {}

@@ -14,6 +14,7 @@
 ---@field public isMelee boolean
 ---@field public isRanged boolean
 ---@field public basicAttack spellData
+---@field public activeSpell spellCastInfo
 ---@field public canAttack boolean
 ---@field public attackDelay number
 ---@field public attackCastDelay number
@@ -37,10 +38,12 @@
 ---@field public isPet boolean
 ---@field public isWard boolean
 ---@field public healthBarPosition vec2
----@field public isHealthBarVisible boolean
 ---@field public characterDataStack characterDataStack
+---@field public isHealthBarVisible boolean
 ---@field public actionState number
----@field public activeSpell spellCastInfo
+---@field public characterState characterState
+---@field public isRecalling boolean
+---@field public isCastingInterruptibleSpell SpellPriority
 local aiBaseClient = {}
 
 ---@param slot SpellSlot
