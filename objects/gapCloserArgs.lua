@@ -1,4 +1,4 @@
----@class gapCloser
+---@class gapCloserArgs
 ---@field public type GapCloserType
 ---@field public target attackableUnit|aiBaseClient
 ---@field public startTime number
@@ -8,8 +8,8 @@
 ---@field public isUnstoppable boolean
 ---@field public isCC boolean
 
----@type gapCloser
-_G.gapCloser = {}
+---@type gapCloserArgs
+_G.gapCloserArgs = {}
 
 
 

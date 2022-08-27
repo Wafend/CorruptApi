@@ -15,6 +15,7 @@
 ---@field public harassKeyDown boolean
 ---@field public currentAttackTarget attackableUnit
 ---@field public comboTarget attackableUnit
+---@field public mode OrbMode
 local orb = {}
 
 ---@return nil
@@ -75,6 +76,10 @@ function orb.predictHP(unit, time) end
 ---@param target attackableUnit
 ---@return nil
 function orb.orbwalkTo(position, target) end
+
+---@param unit attackableUnit
+---@return nil
+function orb.setComboTarget(unit) end
 
 
 

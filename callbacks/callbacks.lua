@@ -105,7 +105,6 @@ function OnTeleport(sender, type) end
 ---@return boolean --@process if false blocks sending message
 function OnSendChat(message) end
 
-
 ---@param sender aiBaseClient
 ---@param isVisible boolean
 ---@return nil
@@ -121,6 +120,6 @@ function OnOrbOutOfRange() end
 function OnOrbPreTick() end
 
 ---@param sender aiBaseClient|gameObject
----@param args gapCloser
+---@param args gapCloserArgs
 ---@return nil
 function OnGapCloser(sender, args) end

@@ -5,7 +5,7 @@
 ---@field public x number
 ---@field public y number
 ---@field public z number
----@field public isValid boolean
+---@field public isValid function
 local vec3 = {}
 
 ---@param b vec3

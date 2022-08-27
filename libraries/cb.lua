@@ -25,8 +25,9 @@
 ---@field public orbAfterAttack number
 ---@field public orbOutOfRange number
 ---@field public orbPreTick number
----@field public gapCloser number
+---@field public gapcloser number
 ---@field public visionChange number
+---@field public executeCastFrame number
 local cb = {}
 
 ---@param callbackId number
