@@ -5,4 +5,4 @@ Lua Annotations for the Corrupt Api
 | Editor/IDE  | Note |
 | ------------- | ------------- |
 | Visual Studio Code  | Lua Extension (sumneko) or EmmyLua required  |
-| Jetbrains IntelliJ  | ~ |
+| Jetbrains IntelliJ  | EmmyLua |
