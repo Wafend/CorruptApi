@@ -95,6 +95,10 @@ function aiHeroClient:updateChargeableSpell(slot, position) end
 ---@return nil
 function aiHeroClient:levelSpell(slot) end
 
+---@param emote Emote
+---@return nil
+function aiHeroClient:doEmote(emote) end
+
 ---@type aiHeroClient
 _G.aiHeroClient = {}
 

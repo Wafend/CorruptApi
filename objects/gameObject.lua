@@ -26,6 +26,9 @@
 ---@field public asCamp neutralMinionCamp
 ---@field public boundingRadius number
 ---@field public isOnScreen boolean
+---@field public isEnemy boolean
+---@field public isAlly boolean
+---@field public objFlags number
 ---@field public isValid boolean
 local gameObject = {}
 
@@ -37,6 +40,8 @@ function gameObject:isType(type) end
 ---@overload fun(pos:vec3):number
 ---@return number
 function gameObject:distance(object) end
+
+
 
 
 ---@type gameObject

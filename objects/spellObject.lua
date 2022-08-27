@@ -11,6 +11,7 @@
 ---@field public castRange number
 ---@field public slot number
 ---@field public state number
+---@field public mana number
 
 ---@type spellObject
 _G.spellObject = {}

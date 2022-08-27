@@ -1,6 +1,9 @@
 ---@class attackableUnit : aiBaseClient
 ---@field public resource number
 ---@field public maxResource number
+---@field public mana number
+---@field public maxMana number
+---@field public manaPercent number
 ---@field public resourceEnabled boolean
 ---@field public resourceType ResourceType
 ---@field public secondaryResource number
@@ -30,9 +33,6 @@
 ---@field public secondaryResourcePercent number
 ---@field public path path
 ---@field public isZombie boolean
----@field public mana number
----@field public maxMana number
----@field public manaPercent number
 local attackableUnit = {}
 
 ---@param color number
@@ -46,10 +46,6 @@ function attackableUnit:addGlow(color, thickness, blur) end
 ---@param from vec3
 ---@return boolean
 function attackableUnit:isValidTarget(range, onlyEnemy, from) end
-
----@param buff_name string
----@return buff
-function attackableUnit:findBuff(buff_name) end
 
 
 ---@type attackableUnit

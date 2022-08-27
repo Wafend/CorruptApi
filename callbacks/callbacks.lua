@@ -105,6 +105,12 @@ function OnTeleport(sender, type) end
 ---@return boolean --@process if false blocks sending message
 function OnSendChat(message) end
 
+
+---@param sender aiBaseClient
+---@param isVisible boolean
+---@return nil
+function OnVisionChange(sender, isVisible) end
+
 ---@return nil
 function OnOrbAfterAttack() end
 

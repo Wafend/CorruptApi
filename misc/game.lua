@@ -16,6 +16,19 @@ local game = {}
 ---@return nil
 function game.overrideOrder(overridable_obj) end
 
+---@param position vec3,
+---@param type PingType,
+---@param playSound boolean,
+---@param target? gameObject,
+---@param sender? gameObject,
+---@return boolean
+function game.showPing(position, type, playSound, target, sender) end
+
+---@param position vec3,
+---@param type PingType,
+---@return boolean
+function game.sendPing(position, type) end
+
 
 ---@type game
 _G.game = {}

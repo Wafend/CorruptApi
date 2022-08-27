@@ -19,7 +19,6 @@ function objManager.findObject(handle) end
 ---@return gameObject
 function objManager.getNetworkObject(networkId) end
 
-
 ---@type objManager
 _G.objManager = {}
 

@@ -1,4 +1,4 @@
----@class missileClient
+---@class missileClient : gameObject @missileClient extends gameObject
 ---@field public casterHandle number
 ---@field public startPosition number
 ---@field public endPosition number

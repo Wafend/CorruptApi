@@ -1,5 +1,5 @@
 ---@class effectEmitter
----@field public target animationComponent
+---@field public animationComponent animationComponent
 
 ---@type effectEmitter
 _G.effectEmitter = {}
