@@ -28,6 +28,7 @@
 ---@field public gapcloser number
 ---@field public visionChange number
 ---@field public executeCastFrame number
+---@field public chatUpdate number
 local cb = {}
 
 ---@param callbackId number
