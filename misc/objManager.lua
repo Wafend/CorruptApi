@@ -3,6 +3,7 @@
 ---@field public myHero aiHeroClient
 ---@field public attackableUnits managerTemplate
 ---@field public buildings managerTemplate
+---@field public inhibs managerTemplate
 ---@field public aiBases managerTemplate
 ---@field public turrets managerTemplate
 ---@field public minions managerTemplate

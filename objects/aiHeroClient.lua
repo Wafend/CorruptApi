@@ -99,6 +99,11 @@ function aiHeroClient:levelSpell(slot) end
 ---@return nil
 function aiHeroClient:doEmote(emote) end
 
+---@param itemId number
+---@return number 0-2, 0 = fail
+function aiHeroClient:buyItem(itemId) end
+
+
 ---@type aiHeroClient
 _G.aiHeroClient = {}
 
