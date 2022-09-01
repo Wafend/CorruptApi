@@ -81,8 +81,9 @@ function orb.orbwalkTo(position, target) end
 ---@return nil
 function orb.setComboTarget(unit) end
 
-
-
+---@param unit attackableUnit
+---@return number
+function orb.getAttackSpeed(unit) end
 
 ---@type orb
 _G.orb = {}
