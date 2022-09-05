@@ -7,6 +7,7 @@
 ---@field public caster gameObject
 ---@field public missileSpeed number
 ---@field public spellData spellData
+---@field public movement missileMovement
 
 
 
