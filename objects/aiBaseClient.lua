@@ -109,7 +109,9 @@ function aiBaseClient:isInAttackRange(target) end
 function aiBaseClient:getAttackRange(target) end
 
 
-
+---@param target attackableUnit
+---@return boolean
+function aiBaseClient:useObject(target) end
 
 ---@type aiBaseClient
 _G.aiBaseClient = {}

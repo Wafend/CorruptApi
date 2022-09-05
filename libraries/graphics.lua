@@ -27,6 +27,13 @@ function graphics.textSize(text, fontSize) end
 ---@return nil
 function graphics.drawCircle(position, radius, thickness, color) end
 
+---@param position vec3
+---@param radius number
+---@param thickness number
+---@param speed number
+---@return nil
+function graphics.drawCircleRainbow(position, radius, thickness, speed) end
+
 ---@param position vec2
 ---@param radius number
 ---@param thickness number
@@ -95,6 +102,12 @@ function graphics.drawTextStroke2D(text, fontSize, position, color) end
 ---@return nil
 function graphics.drawLine(start, end_pos, thickness, color) end
 
+---@param start vec3
+---@param end_pos vec3
+---@param thickness number
+---@param speed number
+---@return nil
+function graphics.drawLineRainbow(start, end_pos, thickness, speed) end
 
 ---@param start vec2
 ---@param end_pos vec2
