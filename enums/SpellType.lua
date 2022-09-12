@@ -1,8 +1,8 @@
 ﻿---@class SpellType
----@field public linear SpellType
----@field public circular SpellType
----@field public conical SpellType
----@field public self SpellType
+---@field public Linear SpellType
+---@field public Circular SpellType
+---@field public Conical SpellType
+---@field public Self SpellType
 
 ---@type SpellType
 _G.SpellType = {}
