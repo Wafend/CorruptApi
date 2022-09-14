@@ -13,12 +13,7 @@ function menuElement:set(value) end
 ---@return nil
 function menuElement:tooltip(value) end
 
----@param value boolean
----@return nil
-function menu:hide(value) end
 
----@return boolean
-function menu:isopen() end
 
 
 ---@type menuElement
