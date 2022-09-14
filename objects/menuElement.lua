@@ -17,6 +17,10 @@ function menuElement:tooltip(value) end
 ---@return nil
 function menu:hide(value) end
 
+---@return boolean
+function menu:isopen() end
+
+
 ---@type menuElement
 _G.menuElement = {}
 
