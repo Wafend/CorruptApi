@@ -103,6 +103,10 @@ function aiHeroClient:doEmote(emote) end
 ---@return number 0-2, 0 = fail
 function aiHeroClient:buyItem(itemId) end
 
+---@param itemId number
+---@return boolean
+function aiHeroClient:sellItem(itemId) end
+
 
 ---@type aiHeroClient
 _G.aiHeroClient = {}
