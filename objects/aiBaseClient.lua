@@ -1,4 +1,4 @@
----@class aiBaseClient @parent class
+---@class aiBaseClient : gameObject
 ---@field public teleportName string
 ---@field public teleportType TeleportType
 ---@field public combatType CombatType
