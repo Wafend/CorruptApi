@@ -15,10 +15,6 @@ function menu.delete(key) end
 ---@return menu
 function menu:header(key, displayName) end
 
----@param value boolean
----@return nil
-function menu:hide(value) end
-
 ---@param key string
 ---@param displayName string
 ---@param defaultValue boolean
@@ -87,6 +83,13 @@ function menu:get(key) end
 ---@param displayName string
 ---@return menuElement
 function menu:spacer(key, displayName) end
+
+---@param value boolean
+---@return nil
+function menu:hide(value) end
+
+---@return boolean
+function menu:isopen() end
 
 ---@type menu
 _G.menu = {}
