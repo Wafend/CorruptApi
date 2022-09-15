@@ -12,6 +12,8 @@
 ---@field public slot number
 ---@field public state number
 ---@field public mana number
+---@diagnostic disable-next-line: undefined-doc-name
+---@field public icon texture
 
 ---@type spellObject
 _G.spellObject = {}
