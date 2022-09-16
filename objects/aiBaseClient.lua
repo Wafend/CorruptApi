@@ -46,23 +46,23 @@
 ---@field public isCastingInterruptibleSpell SpellPriority
 local aiBaseClient = {}
 
----@param slot SpellSlot
+---@param slot SpellSlot | number
 ---@return spellObject
 function aiBaseClient:getSpell(slot) end
 
----@param slot SpellSlot
+---@param slot SpellSlot | number
 ---@return spellObject
 function aiBaseClient:spellSlot(slot) end
 
----@param slot SpellSlot
+---@param slot SpellSlot | number
 ---@return number
 function aiBaseClient:getSpellState(slot) end
 
----@param slot SpellSlot
+---@param slot SpellSlot | number
 ---@return boolean
 function aiBaseClient:getItemID(slot) end
 
----@param itemID number
+---@param itemID number 
 ---@return boolean
 function aiBaseClient:hasItem(itemID) end
 

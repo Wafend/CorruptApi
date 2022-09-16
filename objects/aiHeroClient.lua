@@ -14,11 +14,11 @@
 ---@field public isWindingUp boolean
 local aiHeroClient = {}
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@return boolean
 function aiHeroClient:isSpellEvolved(slot) end
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@return number
 function aiHeroClient:getManaCost(slot) end
 
@@ -44,58 +44,58 @@ function aiHeroClient:attack(target) end
 ---@return boolean
 function aiHeroClient:attack(target, triggerEvent, ignoreLimit) end
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@param triggerEvent boolean
 ---@param ignoreLimit boolean
 ---@return boolean
 function aiHeroClient:castSpell(slot, triggerEvent, ignoreLimit) end 
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@return boolean
 function aiHeroClient:castSpell(slot) end 
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@param target aiHeroClient|attackableUnit|gameObject
 function aiHeroClient:castSpell(slot, target) end 
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@param target aiHeroClient|attackableUnit|gameObject
 ---@param triggerEvent boolean
 ---@param ignoreLimit boolean
 function aiHeroClient:castSpell(slot, target, triggerEvent, ignoreLimit) end 
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@param startPosition vec3
 ---@param endPosition vec3
 ---@param triggerEvent boolean
 ---@param ignoreLimit boolean
 function aiHeroClient:castSpell(slot, startPosition, endPosition, triggerEvent, ignoreLimit) end 
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@param startPosition vec3
 ---@param endPosition vec3
 function aiHeroClient:castSpell(slot, startPosition, endPosition, triggerEvent, ignoreLimit) end
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@param position vec3
 function aiHeroClient:castSpell(slot, position) end
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@param position vec3
 ---@param triggerEvent boolean
 ---@param ignoreLimit boolean
 function aiHeroClient:castSpell(slot, position, triggerEvent, ignoreLimit) end
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@param position vec3
 ---@return boolean
 function aiHeroClient:updateChargeableSpell(slot, position) end
 
----@param slot SpellSlot
+---@param slot SpellSlot|number
 ---@return nil
 function aiHeroClient:levelSpell(slot) end
 
----@param emote Emote
+---@param emote Emote|number
 ---@return nil
 function aiHeroClient:doEmote(emote) end
 
@@ -108,7 +108,7 @@ function aiHeroClient:buyItem(itemId) end
 function aiHeroClient:sellItem(itemId) end
 
 
----@type aiHeroClient
+---@type aiHeroClient|aiBaseClient|gameObject|aiBaseClient|attackableUnit
 _G.aiHeroClient = {}
 
 ---@type aiHeroClient|aiBaseClient|gameObject|aiBaseClient|attackableUnit
