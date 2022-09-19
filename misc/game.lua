@@ -10,6 +10,7 @@
 ---@field public mapID MapId
 ---@field public mode GameMode
 ---@field public state GameState
+---@field public id number
 local game = {}
 
 ---@param overridable_obj vec3|attackableUnit

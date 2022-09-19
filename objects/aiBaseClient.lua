@@ -44,6 +44,8 @@
 ---@field public characterState characterState
 ---@field public isRecalling boolean
 ---@field public isCastingInterruptibleSpell SpellPriority
+---@field public totalAd number
+---@field public totalAp number
 local aiBaseClient = {}
 
 ---@param slot SpellSlot | number

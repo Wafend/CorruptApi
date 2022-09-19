@@ -21,6 +21,11 @@ function pred.positionAfterTime(target, time) end
 ---@return aiBaseClient[]
 function pred.findSpellCollisions(target, input, castFrom, endPosition, time) end
 
+---@return nil
+function pred.load() end
+
+---@return nil
+function pred.unload() end
 
 ---@type pred
 _G.pred = {}
