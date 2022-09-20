@@ -1,5 +1,5 @@
 ---@class ts
----@field public selected gameObject|aiHeroClient|attackableUnit
+---@field public selected gameObject|aiHeroClient|attackableUnit|aiBaseClient
 local ts = {}
 
 ---@param filter function

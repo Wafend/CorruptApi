@@ -14,6 +14,7 @@
 ---@field public mana number
 ---@diagnostic disable-next-line: undefined-doc-name
 ---@field public icon void*|texture
+---@field public resource spellDataResource
 
 ---@type spellObject
 _G.spellObject = {}

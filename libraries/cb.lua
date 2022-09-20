@@ -29,6 +29,7 @@
 ---@field public visionChange number
 ---@field public executeCastFrame number
 ---@field public chatUpdate number
+---@field public gameExit number
 local cb = {}
 
 ---@param callbackId number
