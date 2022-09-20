@@ -21,6 +21,15 @@ function pred.positionAfterTime(target, time) end
 ---@return aiBaseClient[]
 function pred.findSpellCollisions(target, input, castFrom, endPosition, time) end
 
+---@param target aiBaseClient
+---@param time number
+---@return boolean -- true if target is CC'd in given seconds in the future
+function pred.isCrowdControlled(target, time) end
+
+---@param target aiBaseClient
+---@return number
+function pred.getCrowdControlledTime(target) end
+
 ---@return nil
 function pred.load() end
 

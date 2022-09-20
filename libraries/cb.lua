@@ -41,7 +41,6 @@ function cb.add(callbackId, func) end
 ---@return nil
 function cb.remove(callbackId, func) end
 
-
 ---@param callbackId number
 ---@param ... any arguments to pass to the callback
 ---@return nil

@@ -95,6 +95,10 @@ function aiHeroClient:updateChargeableSpell(slot, position) end
 ---@return nil
 function aiHeroClient:levelSpell(slot) end
 
+---@param slot SpellSlot|number
+---@return boolean
+function aiHeroClient:spellSlotCanBeUpgraded(slot) end
+
 ---@param emote Emote|number
 ---@return nil
 function aiHeroClient:doEmote(emote) end
@@ -106,6 +110,10 @@ function aiHeroClient:buyItem(itemId) end
 ---@param itemId number
 ---@return boolean
 function aiHeroClient:sellItem(itemId) end
+
+---@param position vec3
+---@return boolean
+function aiHeroClient:setYuumiQ(position) end
 
 
 ---@type aiHeroClient|aiBaseClient|gameObject|aiBaseClient|attackableUnit

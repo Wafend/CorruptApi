@@ -13,7 +13,6 @@ function damageLib.physical(source, target, amount) end
 ---@return number
 function damageLib.magical(source, target, amount) end
 
-
 ---@param source aiBaseClient
 ---@param target attackableUnit
 ---@return number

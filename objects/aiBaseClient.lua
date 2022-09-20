@@ -110,10 +110,26 @@ function aiBaseClient:isInAttackRange(target) end
 ---@return number
 function aiBaseClient:getAttackRange(target) end
 
-
 ---@param target attackableUnit
 ---@return boolean
 function aiBaseClient:useObject(target) end
+
+---@param object attackableUnit
+---@return number
+function aiBaseClient:canUseObjectReason(object) end
+
+---@param object attackableUnit
+---@return boolean
+function aiBaseClient:canUseObject(object) end
+
+---@param object attackableUnit
+---@return number
+function aiBaseClient:useObjectCooldown(object) end
+
+---@param object attackableUnit
+---@return number
+function aiBaseClient:useObjectCooldownMax(object) end
+
 
 ---@type aiBaseClient
 _G.aiBaseClient = {}

@@ -11,6 +11,7 @@
 ---@field public mode GameMode
 ---@field public state GameState
 ---@field public id number
+---@field public resolution vec2
 local game = {}
 
 ---@param overridable_obj vec3|attackableUnit
