@@ -91,6 +91,9 @@ function menu:hide(value) end
 ---@return boolean
 function menu:isopen() end
 
+---@return boolean
+function menu:isMainMenuOpen() end
+
 ---@type menu
 _G.menu = {}
 

@@ -13,7 +13,7 @@
 ---@field public state number
 ---@field public mana number
 ---@diagnostic disable-next-line: undefined-doc-name
----@field public icon void*|texture
+---@field public icon texture
 ---@field public resource spellDataResource
 
 ---@type spellObject

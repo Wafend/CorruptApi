@@ -1,6 +1,6 @@
 ---@class managerTemplate
 ---@field public count number
----@field public list attackableUnit[]
+---@field public list attackableUnit|aiBaseClient[]
 ---@field public enemies managerTemplateList
 ---@field public allies managerTemplateList
 ---@field public neutrals managerTemplateList

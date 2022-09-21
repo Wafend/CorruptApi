@@ -21,9 +21,9 @@
 ---@field public baseHealth number
 ---@field public bonusHealth number
 ---@diagnostic disable-next-line: undefined-doc-name
----@field public iconSquare void*
+---@field public iconSquare texture
 ---@diagnostic disable-next-line: undefined-doc-name
----@field public iconCircle void*
+---@field public iconCircle texture
 ---@field public totalAttackDamage number
 ---@field public totalBonusAttackDamage number
 ---@field public totalAbilityPower number
