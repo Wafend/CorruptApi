@@ -1,4 +1,6 @@
 ﻿---@class graphics
+---@field public width number
+---@field public height number
 local graphics = {}
 
 ---@param red number
