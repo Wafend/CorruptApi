@@ -1,4 +1,4 @@
----@class attackableUnit : aiBaseClient
+---@class attackableUnit : gameObject
 ---@field public resource number
 ---@field public maxResource number
 ---@field public mana number

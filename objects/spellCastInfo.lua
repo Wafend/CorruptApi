@@ -18,6 +18,7 @@
 ---@field public missileSpeed number
 ---@field public castRange number
 ---@field public startHeight number
+---@field public spellData spellData
 
 
 ---@type spellCastInfo

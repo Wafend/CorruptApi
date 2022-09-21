@@ -1,4 +1,4 @@
----@class aiBaseClient : gameObject
+---@class aiBaseClient : attackableUnit
 ---@field public teleportName string
 ---@field public teleportType TeleportType
 ---@field public combatType CombatType
