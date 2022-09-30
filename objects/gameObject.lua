@@ -24,6 +24,7 @@
 ---@field public asAIBase aiBaseClient
 ---@field public asTurret aiTurretClient
 ---@field public asCamp neutralMinionCamp
+---@field public asEffectEmitter effectEmitter
 ---@field public boundingRadius number
 ---@field public isOnScreen boolean
 ---@field public isEnemy boolean
