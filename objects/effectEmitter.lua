@@ -1,6 +1,7 @@
----@class effectEmitter
+---@class effectEmitter : gameObject
 ---@field public animationComponent animationComponent
----@field public attachedObject aiBaseClient
+---@field public attachment attachmentPointInterface
+---@field public targetAttachment attachmentPointInterface
 
 ---@type effectEmitter
 _G.effectEmitter = {}
