@@ -29,11 +29,11 @@ function net.postAsync(url, body, header, callback) end
 ---@return nil 
 function net.autoUpdateDirect(dataUrl, fileUrl, callback) end 
 
----@param dataUrl string  dataUrl url to download data.json from
+---@param url string  url to download the file from
 ---@param path string  path to save the downloaded file to
 ---@param callback fun(success:boolean):nil
 ---@return nil 
-function net.download(dataUrl, fileUrl, callback) end 
+function net.download(url, path, callback) end 
 
 
 
